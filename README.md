@@ -15,3 +15,10 @@ The connector ecosystem that will allow me to chain these boards together are th
 I will attempt to use a screw terminal block to mount the boards.
 
 The prototype controller will be an Arduino.
+
+
+
+## Instructions
+To correct the paths to 3D models of custom library components: select a footprint in the PCB editor, edit its properties in the right click context menu or by pressing the E key, and enter the "3D Models" tab
+
+CAD models I derived from datasheet drawings are included. CAD models I downloaded from the manufacturer can be downloaded from manufacturer websites.

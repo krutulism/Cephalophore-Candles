@@ -144,6 +144,11 @@
       (net 7 "unconnected-(J3-Pin_3-Pad3)") (pinfunction "Pin_3") (pintype "passive+no_connect") (tstamp 663e956b-1be4-4b78-ad14-d4ae76b8ba16))
     (pad "4" thru_hole circle (at 0 0 334.5) (size 2.5 2.5) (drill 1.57) (layers "*.Cu" "*.Mask")
       (net 8 "unconnected-(J3-Pin_4-Pad4)") (pinfunction "Pin_4") (pintype "passive+no_connect") (tstamp c17efbdf-6978-4a81-8e11-94e81fee254a))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/keystone-PN7779.STEP"
+      (offset (xyz 2.5 -5 -3))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 180))
+    )
   )
 
   (footprint "LadderLEDLib:Molex 105405-1104" (layer "F.Cu")
@@ -192,6 +197,11 @@
       (thermal_bridge_angle 45) (tstamp 23640d1c-6eea-4d3c-ae6d-ba16b4613688))
     (pad "6" smd rect (at 7.04 0 180) (size 1.1 8.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (thermal_bridge_angle 45) (tstamp 4935b15b-df4a-44a5-97f9-cc26c30f4d33))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/1054051104.stp"
+      (offset (xyz 3.8 4.5 3.25))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LadderLEDLib:Molex 1054302103" (layer "F.Cu")
@@ -238,6 +248,11 @@
       (thermal_bridge_angle 45) (tstamp 527bd019-4c16-4b8e-9855-b7750e864f71))
     (pad "5" smd rect (at 9.54 0 334) (size 1.1 8.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (thermal_bridge_angle 45) (tstamp d7cb93ee-9fab-48df-afdf-f589500dcd7c))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/1054302103.stp"
+      (offset (xyz 4.75 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
@@ -260,7 +275,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e894555d-3561-4cd4-b564-777e15b41f5f)
     )
-    (fp_text value "0.1u" (at 51.591495 -14.318437 27) (layer "B.Fab")
+    (fp_text value "0.1u" (at -5.092684 -4.224889 27) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 339d1949-7201-4252-9d3c-4f112c544490)
     )
@@ -335,6 +350,11 @@
       (net 1 "GND") (pinfunction "VSS") (pintype "power_in") (thermal_bridge_angle 45) (tstamp 530d3024-abd7-426d-bc41-4b6f313dfa52))
     (pad "4" smd roundrect (at 2.4 1.7 328) (size 1.6 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.06561666667)
       (net 11 "Net-(U2-DOUT)") (pinfunction "DIN") (pintype "input") (thermal_bridge_angle 45) (tstamp 30b587b8-84aa-4471-8f0f-de668dd79551))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/IN-PI55QATPRPGPBPW-XX.STEP"
+      (offset (xyz -2.75 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
@@ -432,6 +452,11 @@
       (net 1 "GND") (pinfunction "VSS") (pintype "power_in") (thermal_bridge_angle 45) (tstamp a65bafa8-f3a0-4221-9ec1-e6554e68a9c9))
     (pad "4" smd roundrect (at 2.4 1.7 274) (size 1.6 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.06561666667)
       (net 10 "Net-(U1-DOUT)") (pinfunction "DIN") (pintype "input") (thermal_bridge_angle 45) (tstamp 73a5845f-6f97-4a3e-873b-028c4ed59235))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/IN-PI55QATPRPGPBPW-XX.STEP"
+      (offset (xyz -2.75 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
@@ -529,6 +554,11 @@
       (net 1 "GND") (pinfunction "VSS") (pintype "power_in") (thermal_bridge_angle 45) (tstamp 66a80c9d-e72d-4957-8544-6dd1acd12afe))
     (pad "4" smd roundrect (at 2.4 1.7 239) (size 1.6 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.06561666667)
       (net 9 "Net-(U1-DIN)") (pinfunction "DIN") (pintype "input") (thermal_bridge_angle 45) (tstamp 32b6ec93-eb3e-48ca-8e1e-b2e4946ca7f3))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/IN-PI55QATPRPGPBPW-XX.STEP"
+      (offset (xyz -2.75 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LadderLEDLib:IN-PI55QATPRPGPBPW-XX" (layer "B.Cu")
@@ -567,6 +597,11 @@
       (net 1 "GND") (pinfunction "VSS") (pintype "power_in") (thermal_bridge_angle 45) (tstamp d270d1f4-71ab-4dd5-829d-70e6dc090047))
     (pad "4" smd roundrect (at 2.4 1.7 59) (size 1.6 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.06561666667)
       (net 13 "Net-(U4-DOUT)") (pinfunction "DIN") (pintype "input") (thermal_bridge_angle 45) (tstamp 2ad727c3-4eba-4ee4-ac70-b3cff6b26207))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/IN-PI55QATPRPGPBPW-XX.STEP"
+      (offset (xyz -2.75 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LadderLEDLib:IN-PI55QATPRPGPBPW-XX" (layer "B.Cu")
@@ -605,6 +640,11 @@
       (net 1 "GND") (pinfunction "VSS") (pintype "power_in") (thermal_bridge_angle 45) (tstamp b3c95d9d-73e6-4074-a731-af47c1b40d66))
     (pad "4" smd roundrect (at 2.4 1.7 154.5) (size 1.6 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.06561666667)
       (net 14 "Net-(U5-DOUT)") (pinfunction "DIN") (pintype "input") (thermal_bridge_angle 45) (tstamp 1910e7ab-387a-4436-80c5-630cbb4af62d))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/IN-PI55QATPRPGPBPW-XX.STEP"
+      (offset (xyz -2.75 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
@@ -761,6 +801,11 @@
       (net 1 "GND") (pinfunction "VSS") (pintype "power_in") (thermal_bridge_angle 45) (tstamp fdd314bc-90a6-44f2-ba55-9f25c133c2ea))
     (pad "4" smd roundrect (at 2.4 1.7 27) (size 1.6 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.06561666667)
       (net 12 "Net-(U3-DOUT)") (pinfunction "DIN") (pintype "input") (thermal_bridge_angle 45) (tstamp fefd0e03-dc75-4a88-a80b-fcc07270b2e2))
+    (model "${KICAD6_3DMODEL_DIR}/Custom/Ladder-LEDs-3D-Models/IN-PI55QATPRPGPBPW-XX.STEP"
+      (offset (xyz -2.75 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
@@ -12220,7 +12265,6 @@
       (xy 159.458278 114.768368)
       (xy 159.451102 114.767243)
       (xy 159.435613 114.764624)
-      (xy 159.435612 114.764624)
       (xy 159.435612 114.764624)
       (xy 159.435608 114.764626)
       (xy 159.435602 114.764625)

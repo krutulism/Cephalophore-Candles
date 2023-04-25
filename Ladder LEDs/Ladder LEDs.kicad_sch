@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Ladder-LEDs Single Board")
+    (rev "1")
+    (company "Cephalophore")
+  )
+
   (lib_symbols
     (symbol "Conn_01x04_Pin_1" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
@@ -842,7 +848,7 @@
     (pin "3" (uuid 51288521-7475-4ef1-aed8-b2788b9cdf2c))
     (pin "4" (uuid 7aaa8119-f28a-4cf9-be9a-e879c46fa31b))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "J3") (unit 1)
         )
@@ -883,7 +889,7 @@
     (pin "1" (uuid f4f6b551-75b5-4a58-b444-6bb6e31e25d8))
     (pin "2" (uuid d752df52-075e-41a4-8e4d-efeb23415d2b))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "C5") (unit 1)
         )
@@ -926,7 +932,7 @@
     (pin "3" (uuid d2948603-083a-4e69-b795-415722dd4bd6))
     (pin "4" (uuid 2409f422-024d-4953-b1a3-708be959c1c8))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "U2") (unit 1)
         )
@@ -967,7 +973,7 @@
     (pin "1" (uuid 093729bc-f379-4b85-bd12-2adc0bf977ce))
     (pin "2" (uuid 40a3de31-3578-4dbd-bb20-beda994d7ed8))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "C4") (unit 1)
         )
@@ -996,7 +1002,7 @@
     (property "Digi-Key Part Number" "" (at 151.13 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 151.13 179.07 0)
+    (property "MPN" "1054051104" (at 151.13 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Molex" (at 149.86 186.69 0)
@@ -1010,7 +1016,7 @@
     (pin "3" (uuid 58e21f62-f8b0-40f1-a6a1-800b0102d361))
     (pin "4" (uuid f2a6dff7-7223-4cd3-9d81-a95ae7f33401))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "J2") (unit 1)
         )
@@ -1035,7 +1041,7 @@
     )
     (pin "1" (uuid f6d9f627-7a81-47e9-8b0e-312e03e1e6e6))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "#PWR02") (unit 1)
         )
@@ -1060,7 +1066,7 @@
     )
     (pin "1" (uuid 8c49328f-97fc-4fe0-9e82-a3ac4b576b39))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "#PWR06") (unit 1)
         )
@@ -1101,7 +1107,7 @@
     (pin "1" (uuid 38322042-6c6c-4621-8d15-2913ca4c8ec2))
     (pin "2" (uuid 18749bf8-8786-4e33-9abe-a97e55e62377))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "C2") (unit 1)
         )
@@ -1142,7 +1148,7 @@
     (pin "1" (uuid 9439f043-2b67-4af5-87fa-c64345ad543f))
     (pin "2" (uuid 00d7bb11-4729-462a-abba-bdb16cf3d757))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "C6") (unit 1)
         )
@@ -1185,7 +1191,7 @@
     (pin "3" (uuid 912bf0de-df4d-41bc-a279-b9ceb78a0ae9))
     (pin "4" (uuid e60532f5-9dfa-4efd-b722-b88f32ff3183))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "U5") (unit 1)
         )
@@ -1210,7 +1216,7 @@
     )
     (pin "1" (uuid cdbc488c-f071-40bb-aa09-7bad5d695818))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "#PWR07") (unit 1)
         )
@@ -1251,7 +1257,7 @@
     (pin "1" (uuid f8a9c0d7-54b2-4f36-a4fc-54de967d54f5))
     (pin "2" (uuid 2139b74d-9fce-44ae-8f31-01f48fce2acb))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "C1") (unit 1)
         )
@@ -1292,7 +1298,7 @@
     (pin "1" (uuid 669fe0fa-886f-4fc7-aa01-0cf15b46a582))
     (pin "2" (uuid 0fc235e6-5e89-49ab-a660-d79861c35dcc))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "R1") (unit 1)
         )
@@ -1335,7 +1341,7 @@
     (pin "3" (uuid a746b8be-7986-41b4-bd21-0aa9a7ff7592))
     (pin "4" (uuid c3cd396c-905d-4789-9b03-5936b01ffb59))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "U6") (unit 1)
         )
@@ -1378,7 +1384,7 @@
     (pin "3" (uuid 8b6ab16d-9447-451c-b471-7d61856a673a))
     (pin "4" (uuid 22d71e59-cca6-46e4-9130-3ee8eb176fcc))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "U4") (unit 1)
         )
@@ -1403,7 +1409,7 @@
     )
     (pin "1" (uuid 41a8cf74-acbe-4552-9ce6-b37eb013c08e))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "#PWR04") (unit 1)
         )
@@ -1428,7 +1434,7 @@
     )
     (pin "1" (uuid 37fd8469-add0-4aee-92b7-a918abb003aa))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "#PWR03") (unit 1)
         )
@@ -1453,7 +1459,7 @@
     )
     (pin "1" (uuid e99e57c6-7162-4b7c-8593-c293082f4d49))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "#PWR01") (unit 1)
         )
@@ -1478,7 +1484,7 @@
     )
     (pin "1" (uuid 8225344a-6630-43ee-8f13-881463c5aa42))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "#PWR05") (unit 1)
         )
@@ -1507,7 +1513,7 @@
     (property "Digi-Key Part Number" "" (at 184.15 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 184.15 24.13 0)
+    (property "MPN" "1054302103" (at 184.15 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Molex" (at 184.15 24.13 0)
@@ -1520,7 +1526,7 @@
     (pin "2" (uuid 2792aa00-2df8-4459-991b-3ec2fa20c856))
     (pin "3" (uuid 9b687ecf-dadc-4ae5-ae69-67e866fc5347))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "J1") (unit 1)
         )
@@ -1563,7 +1569,7 @@
     (pin "3" (uuid 7a1365a7-2352-4975-9f55-961cb02523d1))
     (pin "4" (uuid c53815b2-dfab-4927-a9b8-cafdf4631b0b))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "U3") (unit 1)
         )
@@ -1604,7 +1610,7 @@
     (pin "1" (uuid 3d7a9b08-6f76-40fc-8ae8-69815fe1e8aa))
     (pin "2" (uuid e0a103c0-159f-4b6c-8ad4-1d51947e89c5))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "C3") (unit 1)
         )
@@ -1647,7 +1653,7 @@
     (pin "3" (uuid 332ebd38-88cc-4404-a96f-37733f61a273))
     (pin "4" (uuid 949fc292-0378-421a-a8de-42801f32ddab))
     (instances
-      (project "Ladder LEDs v1"
+      (project "Ladder LEDs"
         (path "/e491d8ef-51ef-4630-8903-9fd9bed65440"
           (reference "U1") (unit 1)
         )
