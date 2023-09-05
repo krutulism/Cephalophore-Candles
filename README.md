@@ -2,6 +2,7 @@
 KiCAD 7 files for a chainable PCB of individually addressable LEDs.
 
 ![Empty board back and test board front](./images/empty-board-and-test-board.jpg)
+![PCB Layout from KiCAD](./images/board-pcb-cropped.jpg)
 
 ## Abstract
 Strips of individually addressable LEDs are a popular and versatile gadget. Here I develop my own degree of craftsmanship beyond the adhesive strips they often come packaged on.
