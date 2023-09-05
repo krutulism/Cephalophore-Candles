@@ -8,7 +8,7 @@ Strips of individually addressable LEDs are a popular and versatile gadget. Here
 
 The 'case' that motivates their shape are the empty rungs of a salvaged aluminum extension ladder.
 
-![Scrapped aluminum ladder with D-shaped rungs](./images/ladder-beam.jpg)
+![Scrapped aluminum ladder with D-shaped rungs](./images/ladder_beam.jpg)
 
 
 ## Decision Tree
@@ -23,7 +23,7 @@ I will attempt to use a screw terminal block to mount the boards.
 The prototype controller will be an Arduino.
 
 ## First Demo
-![Test program video](./images/full-board-test-program.mp4)
+![Test program video (Google photos link)](https://photos.app.goo.gl/88sZqstjhHEQxjQ36)
 
 ## Instructions
 To correct the paths to 3D models of custom library components: select a footprint in the PCB editor, edit its properties in the right click context menu or by pressing the E key, and enter the "3D Models" tab
@@ -37,5 +37,5 @@ My Arduino firmware treats these LEDs as SK6812RGBW LEDs, a common hobbyist stan
 and here is the table for the Inolux IN-PI55QATPRPGPBPW-40 LEDs I used
 ![Data transmission times for Inolux IN-PI...](./images/inolux-datatranstime-table.jpg)
 
-In scrubbing through the source libraries for , which is used in my demo, I did not find where these transmission times are encoded. This leaves me wondering where my elision will break down, whether after adding more LEDs to the chain, or under a greater frequency of intensity change commands. I will keep scrubbing the source code to understand, but suggestions are welcome.
+In scrubbing through the source libraries for [Adafruit Neopixel](https://github.com/adafruit/Adafruit_NeoPixel), which is used in my demo, I did not find where these transmission times are encoded. This leaves me wondering where my elision will break down, whether after adding more LEDs to the chain, or under a greater frequency of intensity change commands. I will keep scrubbing the source code to understand, but suggestions are welcome.
 
