@@ -6,7 +6,10 @@ KiCAD 7 files for a chainable PCB of individually addressable LEDs.
 ## Abstract
 Strips of individually addressable LEDs are a popular and versatile gadget. Here I develop my own degree of craftsmanship beyond the adhesive strips they often come packaged on.
 
-The 'case' I will install them into are the empty rungs of a salvaged aluminum extension ladder.
+The 'case' that motivates their shape are the empty rungs of a salvaged aluminum extension ladder.
+
+![Scrapped aluminum ladder with D-shaped rungs](./ladder-beam.jpg)
+
 
 ## Decision Tree
 In each cut-off rung I will install a custom PCB designed in KiCAD
@@ -19,9 +22,20 @@ I will attempt to use a screw terminal block to mount the boards.
 
 The prototype controller will be an Arduino.
 
-
+## First Demo
+![Test program video](./full-board-test-program.mp4)
 
 ## Instructions
 To correct the paths to 3D models of custom library components: select a footprint in the PCB editor, edit its properties in the right click context menu or by pressing the E key, and enter the "3D Models" tab
 
 CAD models I derived from datasheet drawings are included. CAD models I downloaded from the manufacturer can be downloaded from manufacturer websites.
+
+## Questions
+My Arduino firmware treats these LEDs as SK6812RGBW LEDs, a common hobbyist standard. However, here is a table of data transmission times for SK6812s accessed at Adafruit:
+![Data transmission times for SK6812](./dongguang-opsco-datatranstime-table.jpg)
+
+and here is the table for the Inolux IN-PI55QATPRPGPBPW-40 LEDs I used
+![Data transmission times for Inolux IN-PI...](./inolux-datatranstime-table.jpg)
+
+In scrubbing through the source libraries for , which is used in my demo, I did not find where these transmission times are encoded. This leaves me wondering where my elision will break down, whether after adding more LEDs to the chain, or under a greater frequency of intensity change commands. I will keep scrubbing the source code to understand, but suggestions are welcome.
+
