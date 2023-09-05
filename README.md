@@ -15,7 +15,7 @@ The 'case' that motivates their shape are the empty rungs of a salvaged aluminum
 ## Decision Tree
 In each cut-off rung I will install a custom PCB designed in KiCAD
 
-The individually addressable LEDs I will use are the from Inolux.
+The individually addressable LEDs I will use are the IN-PI55QATPRPGPBPW-40 RGBW shift register LEDs from Inolux.
 
 The connector ecosystem that will allow me to chain these boards together are the Molex Nanofit system.
 
