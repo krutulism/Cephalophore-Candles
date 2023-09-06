@@ -21,7 +21,9 @@ The connector ecosystem that will allow me to chain these boards together are th
 
 I will attempt to use a screw terminal block to mount the boards.
 
-The prototype controller will be an Arduino.
+The prototype controller will be an Arduino Uno or Nano.
+
+I will solder the surface mount components to the board by upgrading an IR reflow oven.
 
 ## First Demo
 [Test program video (Google photos link)](https://photos.app.goo.gl/88sZqstjhHEQxjQ36)
