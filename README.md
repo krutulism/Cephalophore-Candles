@@ -7,13 +7,13 @@ KiCAD 7 files for a chainable PCB of individually addressable LEDs.
 ## Abstract
 Strips of individually addressable LEDs are a popular and versatile gadget. Here I develop my own degree of craftsmanship beyond the adhesive strips they often come packaged on.
 
-The 'case' that motivates their shape are the empty rungs of a salvaged aluminum extension ladder.
+I used Molex connectors to chain together rigid fiberglass PCBs. The 'housing' that motivates the shape of the PCBs is the empty rungs of a salvaged aluminum extension ladder.
 
 ![Scrapped aluminum ladder with D-shaped rungs](./images/ladder_beam.jpg)
 
 
 ## Decision Tree
-In each cut-off rung I will install a custom PCB designed in KiCAD
+In each cut-off rung I will install a custom PCB designed in KiCAD.
 
 The individually addressable LEDs I will use are the IN-PI55QATPRPGPBPW-40 RGBW shift register LEDs from Inolux.
 
